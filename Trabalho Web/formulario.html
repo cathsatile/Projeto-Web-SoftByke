@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Compra</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="bikes.html">Bikes</a>
+            <a href="peças.html">Peças</a>
+            <a href="formulario.html">Shop</a>
+            <a href="faleconosco.html">Fale Conosco</a>
+        </nav>
+        <br>
+    </header> 
+    <main>
+        
+        <section class="formulario">
+        
+        <form method="post" action="mailto: cathsatile@sempreceub.com" >
+        <h1><u>Formulário de Compra</h1></u></h1>
+        <br><br>
+        <h3>Informações Pessoais:</h3>
+        <br><br>
+        Digite seu nome completo: <input type="text"
+        name="NNome" id="nome_id" value="" size="10" maxlength="50" placeholder="Seu Nome">
+        <hr noshade="" size="2">
+        <br>
+        Digite seu CPF: <input type="text"
+        name="NCpf" id="cpf_id" value="" size="10" maxlength="11" placeholder="Seu CPF">
+        <hr noshade="" size="2">
+        <br>
+        Digite seu Telefone: <input type="text"
+        name="NTelefone" id="telefone_id" value="" size="10" maxlength="20" placeholder="Seu Telefone">
+        <hr noshade="" size="2">
+        <br><br><br>
+
+        <h3>Informações de Endereço:</h3>
+        <br><br>
+        Digite seu Endereço completo: <input type="text"
+        name="NEndereço" id="endereço_id" value="" size="20" maxlength="70" placeholder="Seu Endereço">
+        <hr noshade="" size="2">
+        <br>
+        Digite o Número, caso tenha: <input type="text"
+        name="NNumero" id="numero_id" value="" size="10" maxlength="10" placeholder="Número">
+        <hr noshade="" size="2">
+        <br>
+        Digite o Complemento, caso tenha: <input type="text"
+        name="NComplemento" id="complemento_id" value="" size="10" maxlength="10" placeholder="Complemento">
+        <hr noshade="" size="2">
+        <br><br><br>
+
+        <h3>Modo de Pagamento:</h3>
+        <br>
+        <p><input type="checkbox" name="NCredito" id="credito_id"> Crédito </p>
+        <p><input type="checkbox" name="NDebito" id="debito_id"> Débito </p>
+        <p><input type="checkbox" name="NPix" id="pix_id"> Pix </p>
+
+
+        <br><br>
+        <input type="reset" name="NReset" id="reset_id" value="Limpar campos">
+        <input type="submit" name="NEnviar" id="enviar_id" value="Enviar">
+        <hr noshade="" size="2">
+
+        </form>
+        </section>
+    </main>
+    
+</body>
+</html>
